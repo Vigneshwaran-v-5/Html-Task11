@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: rgb(32, 190, 218);
+display: flex;
+justify-content: center;
+}
+#container{
+    background-color: rgb(223, 111, 12);
+    border:2px solid black;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: center;
+}
+#heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+#centimeter{
+    border: 2px solid rgb(71, 71, 71);
+    padding: 3px;
+    font-size: larger;
+}
+#click{
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 10%;
+}
+#click:hover{
+    background-color: rgb(78, 173, 72);
+    color: black;
+}
+#result{
+    font-size:larger;
+    font-weight: 600;
+    color: rgb(0, 5, 55);
+}
